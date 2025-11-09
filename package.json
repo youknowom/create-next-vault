@@ -12,18 +12,52 @@
   "keywords": [
     "next",
     "nextjs",
-    "starter",
-    "tailwind",
-    "shadcn",
-    "cli"
-  ],
-  "dependencies": {
-    "chalk": "^5.6.2",
-    "execa": "^8.0.1",
-    "figlet": "^1.9.3",
-    "fs-extra": "^11.3.2",
-    "gradient-string": "^2.0.2",
-    "inquirer": "^9.3.8",
-    "ora": "^8.2.0"
-  }
-}
+    {
+      "name": "create-next-vault",
+      "version": "0.1.1",
+      "description": "CLI to create a fully configured Next.js app with Tailwind, shadcn, and more",
+      "main": "index.js",
+      "type": "module",
+      "bin": {
+        "create-next-vault": "./index.js"
+      },
+      "scripts": {
+        "start": "node index.js",
+        "test": "echo \"No tests defined\" && exit 0"
+      },
+      "author": "Omkar Bagul <youknowom@users.noreply.github.com>",
+      "license": "MIT",
+      "files": [
+        "index.js",
+        "README.md",
+        "LICENSE"
+      ],
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/youknowom/create-next-vault.git"
+      },
+      "bugs": {
+        "url": "https://github.com/youknowom/create-next-vault/issues"
+      },
+      "homepage": "https://github.com/youknowom/create-next-vault#readme",
+      "keywords": [
+        "next",
+        "nextjs",
+        "starter",
+        "tailwind",
+        "shadcn",
+        "cli"
+      ],
+      "engines": {
+        "node": ">=18"
+      },
+      "dependencies": {
+        "chalk": "^5.6.2",
+        "execa": "^8.0.1",
+        "figlet": "^1.9.3",
+        "fs-extra": "^11.3.2",
+        "gradient-string": "^2.0.2",
+        "inquirer": "^9.3.8",
+        "ora": "^8.2.0"
+      }
+    }
