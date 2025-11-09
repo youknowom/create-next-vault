@@ -1,6 +1,6 @@
 {
   "name": "create-next-vault",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "CLI to create a fully configured Next.js app with Tailwind, shadcn/ui, themes, and more.",
   "type": "module",
   "main": "index.js",
