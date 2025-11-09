@@ -18,7 +18,6 @@ const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"));
 const banner = () => {
   const text = figlet.textSync("NEXT VAULT", { horizontalLayout: "full" });
   console.log(gradient.pastel.multiline(text));
-  console.log(chalk.gray(`Version ${pkg.version} • Created by youknowom\n`));
   console.log(chalk.gray("A blazing-fast Next.js starter generator ⚡\n"));
 };
 

@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="https://nextjs.org/static/favicon/favicon.ico" height="60" alt="Next.js Logo" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/master/.github/logo-dark.svg" height="60" alt="TailwindCSS Logo" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" height="60" alt="shadcn/ui Logo" />
-</p>
-
 <h1 align="center">⚡ create-next-vault</h1>
 
 <p align="center">

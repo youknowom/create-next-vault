@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/youknowom/create-next-vault/issues"
   },
-  "homepage": "https://github.com/youknowom/create-next-vault#readme",
+  "homepage": "https://next-vault-alpha.vercel.app/",
   "keywords": [
     "next",
     "nextjs",
